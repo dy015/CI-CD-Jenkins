@@ -7,6 +7,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 RUN pip show Werkzeug
+RUN pip show flask
 
 RUN pip install pytest
 
