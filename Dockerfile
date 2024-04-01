@@ -11,7 +11,6 @@ RUN pip show flask
 
 RUN pip uninstall Flask Werkzeug
 RUN pip install Flask Werkzeug
-From werkzeug.urls import url_quote
 
 RUN pip install pytest
 
