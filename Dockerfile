@@ -12,3 +12,5 @@ COPY app/ .
 
 COPY tests/ app/tests/
 
+CMD [ "python", "app.py" ]
+
