@@ -9,9 +9,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN pip show Werkzeug
 RUN pip show flask
 
-RUN pip uninstall Flask Werkzeug
-RUN pip install Flask Werkzeug
-
 RUN pip install pytest
 
 COPY app/ .
